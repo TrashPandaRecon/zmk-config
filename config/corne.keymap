@@ -2,7 +2,7 @@
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
- */qw
+ */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
