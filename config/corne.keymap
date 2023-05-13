@@ -24,8 +24,8 @@
                         bindings = <
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &mt PLUS MINUS
    &mt GRAVE TILDE &kp A &kp S &kp D &kp F   &kp G   &kp H &kp J  &kp K     &kp L   &mt AMPS SEMI &mt STAR APOS
-   &mt EQUAL CARET &kp Z &kp X &kp C &kp V   &kp B   &kp N &kp M  &kp COMMA &kp DOT &mt PIPE SLASH &mt AT EXCL 
-          &to RAISE &mt RMETA TAB &mt LSHFT SPACE   &mt RALT RET &kp BSPC &to LOWER
+   &mt LSHFT CARET &kp Z &kp X &kp C &kp V   &kp B   &kp N &kp M  &kp COMMA &mt EQUAL DOT &mt PIPE SLASH &mt AT EXCL 
+          &to RAISE &mt RMETA TAB &mt LCRTL SPACE   &mt RALT RET &kp BSPC &to LOWER
                         >;
                 };
                 lower_layer {
@@ -38,7 +38,7 @@
    &kp GRAVE  &kp HASH &kp AMPS &kp LBKT  &kp RBKT &kp STAR   &kp PLUS   &kp N7   &kp N8 &kp N9  &kp DOLLAR &kp CLEAR
    &kp TILDE  &kp LT   &kp GT   &kp LPAR  &kp RPAR &kp PIPE   &kp MINUS  &kp N4   &kp N5 &kp N6  &kp N0     &kp PERCENT
    &kp CARET  &kp NUBS &kp FSLH &kp LBRC  &kp RBRC &kp UNDER  &kp EQUAL  &kp N1   &kp N2 &kp N3  &kp DOT    &kp COMMA
-                     &to DEFAULT  &kp TAB     &kp SPACE      &mt RALT RET  &kp BSPC   &to RAISE 
+                     &to DEFAULT &mt RMETA TAB &mt LCRTL SPACE   &mt RALT RET &kp BSPC  &to RAISE 
                         >;
                 };
 
@@ -52,7 +52,7 @@
    &kp C_BRI_UP   &kp C_BRI_DN  &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP &kp K_COPY       &kp C_AL_MAIL  &kp C_AL_WWW  &kp UP  &kp PRINTSCREEN &kp PG_UP &kp HOME
    &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_CLR  &kp K_PASTE      &kp C_AL_FILES &kp LEFT   &kp DOWN  &kp RIGHT       &kp PG_DN &kp END
    &kp F1         &kp F2        &kp F3     &kp F4      &kp F5      &kp F6           &kp F7         &kp F8     &kp F9    &kp F10 &kp F11  &kp F12
-                             &to LOWER &kp TAB   &kp SPACE                         &kp RET  &kp BSPC  &to DEFAULT
+                             &to LOWER &mt RMETA TAB &mt LCRTL SPACE   &mt RALT RET &kp BSPC  &to DEFAULT
   
                         >;
                 };
