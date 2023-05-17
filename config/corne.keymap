@@ -24,7 +24,7 @@
                         bindings = <
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &mt PLUS MINUS
    &mt GRAVE TILDE &kp A &kp S &kp D &kp F   &kp G   &kp H &kp J  &kp K     &kp L   &mt AMPS SEMI &mt STAR APOS
-   &mt LSHFT CARET &kp Z &kp X &kp C &kp V   &kp B   &kp N &kp M  &kp COMMA &mt EQUAL DOT &mt PIPE SLASH &mt AT EXCL 
+   &mt LSHFT CARET &mt AT EXCL &kp Z &kp X &kp C &kp V   &kp B   &kp N &kp M  &kp COMMA &mt EQUAL DOT &mt PIPE SLASH 
           &to RAISE &mt RMETA TAB &mt LCTRL SPACE   &mt RALT RET &kp BSPC &to LOWER
                         >;
                 };
