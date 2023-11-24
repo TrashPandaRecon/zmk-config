@@ -59,7 +59,7 @@ behaviors {
 //                                            | LAYER LOWER | TAB | SPC |   | ENT    |  Backspace   | LAYER DEFAULT |
                         bindings = <
    &kp C_BRI_UP   &kp C_BRI_DN  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp K_COPY       &kp C_AL_MAIL  &kp C_AL_WWW  &kp UP  &kp PRINTSCREEN &kp PG_UP &kp HOME
-   &trans   &trans  &trans &trans  &trans  &kp K_PASTE      &kp C_AL_FILES &kp LEFT   &kp DOWN  &kp RIGHT       &kp PG_DN &kp END
+   &bt BT_CLR   &bt BT_NXT  &bt BT_PRV &trans  &trans  &kp K_PASTE      &kp C_AL_FILES &kp LEFT   &kp DOWN  &kp RIGHT       &kp PG_DN &kp END
    &kp F1         &kp F2        &kp F3     &kp F4      &kp F5      &kp F6           &kp F7         &kp F8     &kp F9    &kp F10 &kp F11  &kp F12
                              &to LOWER &mt RMETA TAB &kp SPACE   &mt RALT RET &kp BSPC  &to DEFAULT
   
